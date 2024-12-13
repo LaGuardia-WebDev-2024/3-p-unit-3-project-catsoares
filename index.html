@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
+[ X ] Two External Links
+[ x ] Table
+[ x ] Three CSS Rules
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -19,12 +19,25 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    h1 {
+      color: aliceblue
+    } 
+    h1:hover {
+      
+      background-color:purple
+    }
+    h2 { 
+    color: aliceblue
+    }
+    body { 
+  background-color: gray;color:aliceblue    }
+    
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1>Cat's Recipe for the Best Steak</h1>
 
   <h2>Contents:</h2>
 
@@ -35,26 +48,59 @@ Select ONE Additional Feature to Add
   <h2 id="?">Recipe #1</h2>
 
   <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
+    <li>Time: 40 minutes</li>
+    <li>Serves: 1 person</li>
   </ul>
-
+<style> 
+  table, th, td {
+  border: 1px solid;
+  </style>
   <table>
     <thead>
       <tr>
-        <th>Ingredients</th>
+        <th>Ingredient</th>
         <th>Quantity</th>
+        
       </tr>
     </thead>
     <tbody>
+      <tr> 
+       <td> Ribeye Steak</td>
+        <td>  1 </td>
+        </tr>
+      
+      <tr> 
+      <td> Salt </td>
+        <td> Two Tbsp</td>
+      </tr>
+      
+      <tr> 
+      <td> Pepper </td>
+      <td> One Tbsp </td>
+       </tr>
+      
+      <tr> 
+      <td>Bell Pepper </td>
+      <td>3</td>
+      </tr>
+
+    <tr> 
+      <td>Garlic Clove</td>
+      <td> 2 </td>
+      </tr>
+    
     </tbody>
   </table>
 
   <p><strong>Step 1:</strong> Do something.
   </p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
+  <p><em>Source #1: <a href="https://themeatandwineco.com/blog/5-health-benefits-of-eating-steak/">HEALTH BENEFITS OF STEAK</a></em></p>
+  
+ <p><em>Source #2: <a href="https://www.healthline.com/nutrition/is-red-meat-bad-for-you-or-good">HEALTH BENEFITS OF STEAK</a></em></p>
+  <img src="https://cheflolaskitchen.com/wp-content/uploads/2023/08/Grilled-Steak-6.jpg.webp">
+    <img src="https://cdn.britannica.com/12/147312-050-BEC6A59E/Bell-peppers.jpg?w=300">
+    <img src="https://www.escoffier.edu/wp-content/uploads/2022/03/Smiling-male-chef-with-white-coat-and-hat-768.jpg">
 </body>
 
 </html>
